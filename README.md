@@ -19,7 +19,8 @@ This is tested in Ubuntu 17.04
 ### 2. install tenforflow 
 - homepage : https://www.tensorflow.org/install/install_linux
 - Determine which TensorFlow to install : TensorFlow with CPU support only
-- create conda envionment : ```$ conda create --name tensorflow python=3.6```
+- create conda environment : ```$ conda create --name tensorflow```
+- remove a conda environment if you want : ```$ conda remove --name tensorflow```
 - activate tensorflow environment : ```$ source activate tensorflow```
 - install tensorflow 
 ```bash
