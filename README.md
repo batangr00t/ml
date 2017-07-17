@@ -7,6 +7,7 @@ This is tested in Ubuntu 17.04
 1. install anaconda
 2. install tenforflow 
 3. validate the installed tensorflow environment
+4. setup eclipse
 
 ### 1. install anaconda
 - homepage : http://www.continuum.io/
@@ -39,4 +40,13 @@ sess = tf.Session()
 print(sess.run(hello))
 ```
 
-
+### 4. setup eclipse
+- install PyDev : http://www.pydev.org/manual_101_install.html
+- setup elipse
+```
+Windows->Preferences->PyDev->Python Interpreters
+   click [New...]
+   Interpreter Name : tensorflow
+   Interpreter Executable : /home/cho/anaconda3/envs/tensorflow/bin/python
+```
+   
