@@ -42,7 +42,7 @@ print(sess.run(hello))
 
 ### 4. setup eclipse
 - install PyDev : http://www.pydev.org/manual_101_install.html
-- setup elipse
+- setup eclipse
 ```
 Windows->Preferences->PyDev->Python Interpreters
    click [New...]
