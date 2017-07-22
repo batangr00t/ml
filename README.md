@@ -16,6 +16,7 @@ This is tested in Ubuntu 17.04
 - install it : ```$ bash Anaconda3-4.4.0-Linux-x86_64.sh```
 - change PATH in .profile : ```PATH="$HOME/anaconda3/bin:$PATH"```
 - logout ( not terminal but Desktop environment ) and login again
+- conda manual : https://conda.io/docs/using/
 
 ### 2. install tenforflow 
 - homepage : https://www.tensorflow.org/install/install_linux
